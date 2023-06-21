@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+}
+#demo-id{
+    color:blueviolet;
+}
+.demo-class{
+    color:blue;
+}
+h3{
+    margin-top: 60px;
+    color:lightseagreen;
+}
+:root{
+    --text-color: red;
+}
+.box {
+    width: 10%;
+    height: 10%;
+    background-color: red;
+}
+html {
+    background-color: aliceblue;
+    font-size: 20px;
+    /* color: white; */
+    /* background-image: linear-gradient(0, rgb(0, 0, 0), violet); */
+}
+h6 {
+    font-size: 10rem;
+}
+
+.button {
+    /* Thêm phần đệm, cho nút dày lên */
+    /* Chương sau sẽ học chi tiết về padding */
+    padding: 2px 4px;
+
+    color: #fff;
+    background-color: #f05123;
+
+    /* Bỏ gạch chân mặc định của thẻ a */
+    text-decoration: none;
+}
+.button:hover {
+    background-color: rgba(240, 81, 35, 0.8);
+}
+h1:active {
+    color: aqua;
+}
+/* h3:hover {
+    color:blueviolet;
+} */
+li::selection {
+    background-color: blueviolet;
+}
+li:hover {
+    color:blueviolet;
+}
+h4:hover {
+ 
+    color:blueviolet;
+}
+.header{ 
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color:aquamarine;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+}
+.bottom {
+    background-color: #f05123;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+a, li, h3, h4{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+p {
+    margin-top: 16px;
+    margin-left: 35px;
+}

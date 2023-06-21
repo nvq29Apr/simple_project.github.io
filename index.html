@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>nvq29Apr</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            window.alert("This is not a project, it's just a practice as a note when I learn basic HTML CSS\n. Sorry for this ugly site :(")
+        </script>
+        <h1 style="text-align: center;" class="header" id="id-demo" title="đây là demo attribute title"> NOTE F8 WEB</h1>
+        <!-- Các thẻ HTML thông dụng -->
+        <div>
+            <h3>Các thẻ HTML thông dụng</h3>
+            <p>
+                <ul>
+                    <li>Thẻ p</li>
+                    <li title="zổ">Thẻ img: <img class="box" src="https://gamek.mediacdn.vn/133514250583805952/2020/9/11/acz1-1599818885430180233680.jpg" alt="loi cmnr"> </li>
+                    <li>Thẻ a : <a href="https://www.facebook.com/nvq29Apr">Trang cá nhân fb của Q</a></li>
+                    <li>Thẻ ul, li</li>
+                    <li>Thẻ table : 
+                        <table>
+                            <thead>
+                                <th>STT</th>
+                                <th>Việc ?</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Học code</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Học Nhật</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </li>
+                    <li>
+                        Thẻ input : <input type="text">
+                                    <input type="checkbox">
+                                    <input name="?" type="radio">
+                                    <input name="?" type="radio">
+                                    <input name="?" type="radio">
+                    </li>
+                    <li>
+                        Thẻ button : <button>bấm đê</button>
+                    </li>
+                </ul>
+            </p>
+        </div>
+        <!-- Sử dụng CSS trong HTML -->
+        <div>
+            <h3>Sử dụng CSS trong HTML</h3>
+            <ol>
+                <li>Internal</li>
+                <!-- <style>
+                    h1{
+                        color: aqua;
+                    }
+                </style> -->
+                <li>External</li>
+                <!-- <link rel="stylesheet" href="main.css"> -->
+                <li style="color: violet; font-size: 24px">Inline : sử dụng trực tiếp attribute vào tag (thẻ style)</li>
+            </ol>
+        </div>
+        <!-- CSS selecter : ID & Class -->
+        <div>
+            <h3>CSS selecter : ID & Class</h3>
+            <ol>
+                <li class="demo-class">Demo class</li>
+                <li id="demo-id">Demo ID</li>
+            </ol>
+        </div>
+        <!-- Piority : Độ ưu tiên trong CSS -->
+        <div>
+            <h3>Piority : Độ ưu tiên trong CSS</h3>
+            <ul>
+                <li>Internal ngang hàng External, thằng nào viết sau được ưu tiên !</li>
+                <li>Inline - 1000</li>
+                <li>#id - 100</li>
+                <li>.class - 10</li>
+                <li>tag - 1(chỉ định thuộc tính của 1 thẻ như h1, a, p, li,..)</li>
+                <li>Equal specificity? : nếu giống nhau, mới hơn được ưu tiên</li>
+                <li>Universal selector(Thẻ *) and inherited(thẻ con sẽ thừa hưởng thuộc tính thẻ cha)</li>
+                <li style="color: red;">Trùm là !important</li>
+            </ul>
+        </div>
+        <!-- CSS Variable -->
+        <div>
+            <h3>CSS Variable</h3>
+            <p>Chúng ta cần sử dụng lớp giả :root và hàm var(tên biến)</p>
+        </div>
+        <!-- CSS Units -->
+        <div>
+            <h3>CSS Units</h3>
+            <h4>1.Absolute Units</h4>
+            <ul>
+                <li>px</li>
+                <li>pt</li>
+                <li>cm</li>
+                <li>mm</li>
+                <li>inch</li>
+                <li>pc</li>
+            </ul>
+            <h4>2.Relative Units</h4>
+            <ul>
+                <li>%: phụ thuộc thẻ chứa nó</li>
+                <div class="box"></div>
+                <li>rem: phụ thuộc thẻ html</li>
+                <li>em: phụ thuộc thẻ cha gần nhất chứa nó</li>
+                <li>vw</li>
+                <li>vh</li>
+                <li>vmin</li>
+                <li>vmax</li>
+            </ul>
+        </div>
+        <!-- CSS Functions -->
+        <div>
+            <h3>CSS Functions</h3>
+            <ul>
+                <li>var()</li>
+                <li>linear-gradient()</li>
+                <li>rgba()</li>
+                <li>rgb()</li>
+                <li>calc()</li>
+                <li>attr()</li>
+            </ul>
+        </div>
+        <!-- CSS Pseudo-classes     -->
+        <div>
+            <h3>CSS Pseudo-classes</h3>
+            <ul>
+                <li>:root : Tham chiếu tới chính phần tử gốc</li>
+                <li>:hover : Kích hoạt khi di chuột vào</li>
+                <a class="button" href="https://www.youtube.com/channel/UCNSCWwgW-rwmoE3Yc4WmJhw">Youtube F8</a>
+                <li>:active : Kích hoạt khi click</li>
+                <li>:first-child</li>
+                <li>:last-child</li>
+            </ul>
+        </div>
+        <!-- CSS Pseudo-elements -->
+        <div>
+            <h3>CSS Pseudo-elements</h3>
+            <li>::before : <span style="color: red">nhớ content và display: block;</span></li>
+            <li>::after</li>
+            <li>::first-letter</li>
+            <li>::first-line</li>
+            <li>::selection : thuộc tính cho những đối tượng được bôi đen</li>
+        </div>
+        <!-- Thuộc tính Đệm, Viền và Khoảng lề -->
+        <div>
+            <h3>Thuộc tính Đệm, Viền và Khoảng lề</h3>
+            <h4>1.Thuộc tính padding</h4>
+            <ul>
+                <li>padding-top, right, bottom, left</li>
+                <li>padding Apx : đệm vào 4 phía</li>
+                <li>padding Apx Bpx : đệm A vào trên và dưới, B vào trái phải</li>
+                <li>padding Apx Bpx Cpx : trên A, trái phải B, dưới C</li>
+                <li>padding Apx, Bpx, Cpx, Dpx : lần lượt trên phải dưới trái</li>
+            </ul>
+            <h4>2.Thuộc tính border </h4>
+            <ul>
+                <li>border: Apx kieuvien color;</li>
+            </ul>
+            <h4>3.Thuộc tính margin (khoảng cách lề)</h4>
+            <p>Dễ quá, cú pháp như trên :))</p>
+            <h4>4.Thuộc tính box-sizing</h4>
+            <p>box-sizing: border-box; content-box</p>
+        </div>
+        <!-- Thuộc tính tạo nền -->
+        <div>
+            <h3>Thuộc tính tạo nền</h3>
+            <h4>Thuộc tính background-image</h4>
+            <ul>
+                <li>background-image: url()</li>
+                <li>backgroud-repeat: no-repeat, repeat-x, repeat-y;</li>
+                <li>background-image: linear-gradient(hướng xoay, màu bắt đầu, màu cuối)</li>
+                <li>backgroud-size: auto, contain(làm sao cho full ảnh, chấp nhận hở nền), cover(chấp nhận mát 1 phần ảnh, k hở nền)</li>
+                <li>background-clip: đổ MÀU trong content-box hay padding-box, border-box,...</li>
+                <li>background-origin: dải ẢNH trong content-box, padding-box, border-box...;</li>
+                <li>background-position:</li>
+                <li style="color: red">shorthand: background: url() no-repeat center / contain(/ trước size). <a class="button" href="https://developer.mozilla.org/en-US/docs/Web/CSS/background">Chi tiết</a></li>
+            </ul>
+        </div>
+        <!-- CSS position -->
+        <div>
+            <h3>CSS position</h3>
+            <li>relative: lấy chính mình làm gốc toạ độ, k thuộc thuộc ai</li>
+            <li>absolute: coi thẻ cha gần nó nhất có postion và lấy position của thẻ cha đó làm góc tọa độ</li>
+            <li>fixed: phụ thuộc vào cửa sổ trình duyệt</li>
+            <li>sticky: giống fixed, nhưng scroll mới có hiệu lực</li>
+        </div>
+        <div class="bottom button"><a href="https://www.facebook.com/nvq29Apr/">fb.com/nvq29Apr</a></div>
+        <div>
+            <h3>Một số tricks và tip</h3>
+            <h4>1.Cách các căn giữa</h4>
+            <ul>
+                <li>text-align: center;</li>
+                <li>line-height: bằng chiều cao thẻ cha</li>
+                <li>display: flex; -> margin: auto; align-items: center; justify-content: center, space-around, space-between;</li>
+                <li>Thẻ cha position: relative, thẻ căn position: absolute; top: 50%; transform: translateY(-50%)</li>
+            </ul>
+            <h4>2.Hiển thị ảnh dự phòng khi ảnh chính lỗi</h4>
+            <p>Thêm attribute onerror="this.src='link ảnh trong source code'" <p style="color: red">(chỉ tác dụng với thẻ img, load file)</p></p>
+            <p>Đối với background-image: url('link ảnh muốn hiển thị'), url('link ảnh dự phòng');</p>
+        </div>
+    </body>
+</html>
